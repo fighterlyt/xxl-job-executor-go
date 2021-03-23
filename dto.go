@@ -1,5 +1,9 @@
 package xxl
 
+import (
+	"strings"
+)
+
 //通用响应
 type res struct {
 	Code int64       `json:"code"` // 200 表示正常、其他失败
